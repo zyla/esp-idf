@@ -60,8 +60,8 @@ typedef struct {
 static slot_info_t *s_slots[SOC_SPI_PERIPH_NUM] = {};
 static const char *TAG = "sdspi_host";
 
-static const bool use_polling = true;
-static const bool no_use_polling = true;
+static const bool use_polling = false;
+static const bool no_use_polling = false;
 
 
 /// Functions to send out different kinds of commands
